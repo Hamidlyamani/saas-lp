@@ -2,6 +2,7 @@
 module.exports = {
   content: ["./dist/*.{html,js}"],
   theme: {
+    darkMode: 'class', 
     fontFamily: {
       inter: ['Inter', 'sans-serif'],
       DM: ['DM Sans', 'sans-serif'],
@@ -11,16 +12,16 @@ module.exports = {
     fontSize: {
       'h1': ['154px', { lineHeight: '125px', fontWeight: 'bold' }], 
       'h1-m': ['54px', { lineHeight: '50px', fontWeight: 600 }], 
-      'h2': ['54px', { lineHeight: '60px', fontWeight: 'bold' }],
-      'h2-m': ['32px', { lineHeight: '60px', fontWeight: 600 }],
+      'h2': ['54px', { lineHeight: '60px', fontWeight: 'bold', letterSpacing: '-0.036em' }],
+      'h2-m': ['32px', { lineHeight: '40px', fontWeight: 600 }],
       'h4': ['26px', { lineHeight: '30px', fontWeight: 'bold' }],
-      'h5': ['18px', { lineHeight: '1', fontWeight: 'bold' }],
-      'b-large': ['22px', { lineHeight: '31px', fontWeight: 400 }],
-      'b-small': ['14px', { lineHeight: '1', fontWeight: 400 }],
+      'h5': ['18px', {  fontWeight: 'bold' }],
+      'b-large': ['22px', { lineHeight: '31px', fontWeight: 400}],
+      'b-small': ['14px', {  fontWeight: 400 }],
       'b-medium': ['16px', { lineHeight: '23px', fontWeight: 400 }],
-      'b-bold': ['16px', { lineHeight: '1', fontWeight: 600 }],
-      'b-s-bold': ['14px', { lineHeight: '1', fontWeight: 'bold' }],
-      'tag': ['13px', { lineHeight: '1', fontWeight: 500 }],
+      'b-bold': ['16px', {  fontWeight: 600 }],
+      'b-s-bold': ['14px', {  fontWeight: 'bold' }],
+      'tag': ['13px', {  fontWeight: 500 }],
     },
     colors: {
       transparent: 'transparent',
@@ -45,8 +46,8 @@ module.exports = {
     backgroundImage: {
       'gradient-topbar': 'linear-gradient(to right, #FEECFF 0%, #FECAFF 12%, #FEB5FF 27%, #FFDBE7 40%, #FFF4D6 49%, #F3FCD7 59%, #D2F5EE 71%, #C3EFFF 84%, #FBEFFF 100%)',
       'gradient-hero': 'linear-gradient(to bottom, #000000 0%, #200D42 34%, #4F21A1 65% ,#A46EDB 82%)',
-      'gradient-radial': 'radial-gradient(ellipse, #000000 60%, #9560EB 80%)',
-      'gradient-bg': 'linear-gradient(to bottom, #000000 0%, "rgba(93, 44, 168, 0.85)" 58%,  #000000 100%)',
+      'gradient-radial': 'radial-gradient(ellipse, #000000 54%, #9560EB 74%)',
+      'gradient-bg': 'linear-gradient(to bottom, #000000 0%, rgba(93, 44, 168, 0.85) 58%,  #000000 100%)',
     },
     extend: {},
   },
