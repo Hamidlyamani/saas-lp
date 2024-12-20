@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./dist/*.{html,js}"],
+  content: ["./*.{html,js}"],
   theme: {
     darkMode: 'class', 
     fontFamily: {
@@ -47,7 +47,7 @@ module.exports = {
       'gradient-topbar': 'linear-gradient(to right, #FEECFF 0%, #FECAFF 12%, #FEB5FF 27%, #FFDBE7 40%, #FFF4D6 49%, #F3FCD7 59%, #D2F5EE 71%, #C3EFFF 84%, #FBEFFF 100%)',
       'gradient-hero': 'linear-gradient(to bottom, #000000 0%, #200D42 34%, #4F21A1 65% ,#A46EDB 82%)',
       'gradient-radial': 'radial-gradient(ellipse, #000000 54%, #9560EB 74%)',
-      'gradient-bg': 'linear-gradient(to bottom, #000000 0%, rgba(93, 44, 168, 0.85) 58%,  #000000 100%)',
+      'gradient-bg': 'linear-gradient(to bottom, #000000 45%, rgba(93, 44, 168, 0.75) 58%,  #000000 85%)',
     },
     extend: {},
   },
