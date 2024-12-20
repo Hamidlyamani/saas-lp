@@ -1,9 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>README - One Task at a Time</title>
+
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -41,8 +36,7 @@
             margin: 10px 0 10px 20px;
         }
     </style>
-</head>
-<body>
+
     <div class="container">
         <h1>One Task at a Time 🎯</h1>
 
@@ -85,5 +79,4 @@
         <h2>License</h2>
         <p>This project is open-source and free to use. Feel free to adapt it for your learning or projects!</p>
     </div>
-</body>
-</html>
+
